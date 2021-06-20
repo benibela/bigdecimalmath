@@ -1,7 +1,7 @@
 Big Decimal Math
 =============
  
-These unit provides a arbitrary precision bcd float number type.
+This unit provides an arbitrary precision BCD float number type. The usecase is performing a few arithmetic operations with the maximal possible accuracy and precision, e.g. calculating the sum of numbers from a text files, where the conversion from decimal input to binary floats would take more time than the calculation.
 
 It can be used like any numeric type and supports:
 
@@ -9,6 +9,7 @@ It can be used like any numeric type and supports:
 * All standard arithmetic and comparison operators
 * Rounding functions (floor, ceil, to-even, ..)
 * Some more advanced operations, e.g. power and sqrt
+* Accurate and precise binary float (single/double/extended) to BCD float and string conversion
 * ..
 
 
